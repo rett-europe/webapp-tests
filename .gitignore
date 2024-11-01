@@ -63,5 +63,6 @@ windows/.dart_tool/
 # Web build output
 web/.dart_tool/
 
-# Environment configuration
+# Environment and configuration
 .env
+config.dart
