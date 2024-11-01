@@ -18,7 +18,7 @@ class HeroWidget extends StatelessWidget {
         margin: const EdgeInsets.only(bottom: margin),
         child: Image.asset(
           'assets/images/logo.png',
-          width: MediaQuery.of(context).size.width * 0.2,
+          width: MediaQuery.of(context).size.width * 0.3,
         ),
       ),
       Expanded(
