@@ -54530,10 +54530,10 @@ s=s==null?null:s.f
 this.a.d=s},
 $S:0}
 A.zx.prototype={
-V(a){var s,r=null,q=A.yd(r,new A.kT(A.aaY(r,r,new A.p1("images/logo.png",r,r)),200,r),B.F,r,r,r,r,B.wR,r,r,r,r),p=$.af().b5()
+V(a){var s,r=null,q=A.yd(r,new A.kT(A.aaY(r,r,new A.p1("assets/images/logo.png",r,r)),200,r),B.F,r,r,r,r,B.wR,r,r,r,r),p=$.af().b5()
 p.sxm($.agt())
 s=t.k
-return A.y8(A.a([q,A.a5z(A.yd(r,A.y8(A.a([A.Ys("Flutter",A.a9E(80,B.eG,p,0.8)),A.Ys("Sample App",A.a9E(80,B.cX,r,0.8))],s),B.aw,B.nB),B.F,r,r,r,r,B.wT,r,r,r,r))],s),B.ax,B.ar)}}
+return A.y8(A.a([q,A.a5z(A.yd(r,A.y8(A.a([A.Ys("rettX",A.a9E(80,B.eG,p,0.8)),A.Ys("Sample App",A.a9E(80,B.cX,r,0.8))],s),B.aw,B.nB),B.F,r,r,r,r,B.wT,r,r,r,r))],s),B.ax,B.ar)}}
 A.Dj.prototype={
 V(a){var s,r,q,p,o=null,n=this.c,m=n==null,l=m?o:n.y,k=t.k,j=A.a([],k)
 if(l!=null)j.push(A.yd(o,new A.xN(new A.xW(new A.kT(A.aaY(o,o,new A.n9(l.k(0),1,o)),o,o),o),56,o),B.F,o,o,o,o,B.wQ,o,o,o,o))
