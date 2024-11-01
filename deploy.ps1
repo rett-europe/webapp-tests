@@ -2,7 +2,7 @@
 git worktree add ..\gh-pages gh-pages
 
 # Build Flutter web app with the specified base href
-flutter build web --base-href="/webapp_tests/"
+flutter build web
 
 # Copy the build output to the gh-pages worktree
 xcopy /E /I /Y build\web\* ..\gh-pages
