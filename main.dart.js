@@ -54524,7 +54524,7 @@ this.a.d=s},
 $S:0}
 A.zx.prototype={
 V(a){var s,r,q,p,o=null,n=t.w,m=A.du(a,o,n).w
-m=A.yd(o,new A.kT(A.aaX(o,o,new A.p1("images/logo.png",o,o)),m.a.a*0.5,o),B.F,o,o,o,o,B.wR,o,o,o,o)
+m=A.yd(o,new A.kT(A.aaX(o,o,new A.p1("assets/images/logo.png",o,o)),m.a.a*0.5,o),B.F,o,o,o,o,B.wR,o,o,o,o)
 s=$.af().b5()
 s.sxm($.ags())
 n=A.du(a,o,n).w.a.a>600?80:50
