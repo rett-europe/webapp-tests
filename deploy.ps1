@@ -12,3 +12,4 @@ cd ..\gh-pages
 git add .
 git commit -m "Update gh-pages with new assets"
 git push origin gh-pages
+cd ..\webapp_tests
