@@ -16,7 +16,10 @@ class HeroWidget extends StatelessWidget {
     return Column(children: [
       Container(
         margin: const EdgeInsets.only(bottom: margin),
-        child: Image.asset('assets/images/logo.png', width: 200),
+        child: Image.asset(
+          'images/logo.png',
+          width: MediaQuery.of(context).size.width * 0.5,
+        ),
       ),
       Expanded(
           child: Container(
@@ -25,18 +28,12 @@ class HeroWidget extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text('rettX',
+                    Text('Welcome',
                         style: GoogleFonts.spaceGrotesk(
                           foreground: Paint()..shader = linearGradient,
-                          fontSize: 80,
+                          fontSize: MediaQuery.of(context).size.width > 600 ? 80 : 50, // Adjust based on screen width
                           height: 0.8,
                           fontWeight: FontWeight.w800,
-                        )),
-                    Text('Sample App',
-                        style: GoogleFonts.spaceGrotesk(
-                          fontSize: 80,
-                          height: 0.8,
-                          fontWeight: FontWeight.w600,
                         )),
                   ])))
     ]);
