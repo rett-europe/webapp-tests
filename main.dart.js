@@ -54498,7 +54498,7 @@ vB(){var s=0,r=A.O(t.H),q,p=this,o,n,m
 var $async$vB=A.P(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:try{p.f===$&&A.c()
 n=$.wO()
-n=n.vC(0,new A.Rp(new A.zE(null,null,null),null,A.as(t.N),"https://app.rettx.eu/callback",null,null,B.f5))
+n=n.vC(0,new A.Rp(new A.zE(null,null,null),null,A.as(t.N),"https://app.rettx.eu",null,null,B.f5))
 q=n
 s=1
 break}catch(l){o=A.aa(l)
@@ -54509,7 +54509,7 @@ var $async$pn=A.P(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:q=3
 o.f===$&&A.c()
 s=6
-return A.R($.wO().mm(0,new A.Rq("https://app.rettx.eu/callback",null)),$async$pn)
+return A.R($.wO().mm(0,new A.Rq("https://app.rettx.eu",null)),$async$pn)
 case 6:q=1
 s=5
 break
