@@ -54466,7 +54466,7 @@ $1(a){return this.a.$1(a)},
 $S:65}
 A.zy.prototype={
 V(a){var s,r,q,p,o=null,n=t.w,m=A.df(a,o,n).w
-m=A.ye(o,new A.kS(A.aaX(o,o,new A.p1("assets/images/logo.png",o,o)),m.a.a*0.2,o),B.F,o,o,o,o,B.x2,o,o,o,o)
+m=A.ye(o,new A.kS(A.aaX(o,o,new A.p1("assets/images/logo.png",o,o)),m.a.a*0.3,o),B.F,o,o,o,o,B.x2,o,o,o,o)
 s=$.ae().b5()
 s.sxm($.agt())
 n=A.df(a,o,n).w.a.a>600?80:50
