@@ -55388,7 +55388,7 @@ w1(){var s=0,r=A.Q(t.H),q,p=this,o,n,m
 var $async$w1=A.R(function(a,b){if(a===1)return A.N(b,r)
 while(true)switch(s){case 0:try{p.f===$&&A.c()
 n=$.wS()
-n=n.w2(0,new A.Rm(new A.zF(null,null,null),null,A.as(t.N),"http://localhost:3000",null,null,B.fo))
+n=n.w2(0,new A.Rm(new A.zF(null,null,null),null,A.as(t.N),"https://app.rettx.eu",null,null,B.fo))
 q=n
 s=1
 break}catch(l){o=A.ai(l)
@@ -55399,7 +55399,7 @@ var $async$pW=A.R(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:q=3
 o.f===$&&A.c()
 s=6
-return A.V($.wS().mV(0,new A.Rn("http://localhost:3000",null)),$async$pW)
+return A.V($.wS().mV(0,new A.Rn("https://app.rettx.eu",null)),$async$pW)
 case 6:q=1
 s=5
 break
