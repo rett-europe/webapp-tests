@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer' as developer;
 
-import 'config.dart';
+import 'utils/config.dart';
 import 'pages/landing_page.dart';
 import 'pages/home_page.dart';
 
