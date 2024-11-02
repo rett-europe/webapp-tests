@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'rettx_main.dart';
+import 'app.dart';
 
-void main() async {
+void main() {
   runApp(const RettxApp());
 }
-

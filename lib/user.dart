@@ -29,6 +29,9 @@ class UserWidget extends StatelessWidget {
             propertyValue: user?.isEmailVerified.toString()),
         UserEntryWidget(propertyName: 'Phone number', propertyValue: user?.phoneNumber),
         UserEntryWidget(
+          propertyName: 'Phone Verified!?',
+          propertyValue: user?.isPhoneNumberVerified.toString()),
+        UserEntryWidget(
             propertyName: 'Updated at',
             propertyValue: user?.updatedAt?.toIso8601String()),
       ]))
