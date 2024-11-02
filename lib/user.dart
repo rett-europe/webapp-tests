@@ -22,10 +22,12 @@ class UserWidget extends StatelessWidget {
           child: Column(children: [
         UserEntryWidget(propertyName: 'Id', propertyValue: user?.sub),
         UserEntryWidget(propertyName: 'Name', propertyValue: user?.name),
+        UserEntryWidget(propertyName: 'Family name', propertyValue: user?.familyName),
         UserEntryWidget(propertyName: 'Email', propertyValue: user?.email),
         UserEntryWidget(
             propertyName: 'Email Verified?',
             propertyValue: user?.isEmailVerified.toString()),
+        UserEntryWidget(propertyName: 'Phone number', propertyValue: user?.phoneNumber),
         UserEntryWidget(
             propertyName: 'Updated at',
             propertyValue: user?.updatedAt?.toIso8601String()),
